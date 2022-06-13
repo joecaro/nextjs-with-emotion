@@ -11,7 +11,7 @@ place-items: center;
 const Home: NextPage = () => {
   return (
     <StyledContainer>
-      <h1>Hello World.</h1>
+      <h1 data-testid="heading-test">Hello World.</h1>
     </StyledContainer>
   )
 }
